@@ -1,0 +1,165 @@
+*{
+	/*margin: 0;*/
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+.header{
+	margin: 20px 0 30px;
+	height: 22px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+.main__content{
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+.main__heading{
+	max-width: 510px;
+}
+.main__text{
+	max-width: 425px;
+}
+
+.main__btn{
+	padding: 10px 20px;
+	display: inline-block;
+	margin: 0 auto;
+	border: 1px solid slateblue;
+	text-align: center;
+	color: #fff;
+	background: slateblue;
+	border-radius: 20px;
+}
+
+/*///////////////////////////////////////////////////////////////////////*/
+
+.what-we-do{}
+
+.what__heading{
+	text-align: center;
+}
+
+.what__cards{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card__content{
+	padding: 20px;
+}
+
+.card__content:nth-child(2){
+
+}
+
+.card__img{}
+
+.card__heading{}
+
+.card__text{
+	max-width: 359px;
+}
+
+.card__link{}
+
+
+.our__wrap{
+	text-align: center;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////*/
+.contact{
+	text-align: center;
+}
+
+.contact__heading{}
+
+.contact__text{}
+
+.contact{}
+
+.contact{}
+
+.contact{}
+
+.contact{}
+
+.contact{}
+
+.contact{}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+.footer__top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__container{
+	max-width: 495px;
+}
+
+.footer__heading{
+	max-width: 340px;
+}
+
+.footer__text{}
+
+.footer__btn{
+	background: blue;
+	padding: 10px 15px;
+}
+.footer__btn a{
+	color: white;
+	text-decoration: none;
+}
+
+.footer__bottom{}
+
+.footer__list{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__list li:first-child::before{
+	content: 'A. ';
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+.footer__list li:nth-child(2)::before{
+	content: 'T. ';
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+.footer__list li:last-child::before{
+	content: 'E. ';
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+.footer__copy{
+	padding: 20px 0;
+}
+
+.footer__copy .text{
+	color: grey;
+}

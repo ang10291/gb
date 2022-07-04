@@ -1,0 +1,152 @@
+@media (max-width: 980px){
+	.content__img{
+		width: 423px
+	}
+	.what__cards{
+		flex-direction: column;
+		align-items: center
+	}
+	.card__content{
+		max-width: 370px
+		padding: 28px;
+	}
+	.card__content:nth-child(2){
+		margin: 32px 0;
+	}
+	.what__text{
+		max-width: 550px;
+	}
+}
+
+@media (max-width: 930px){
+	.footer__list{
+		flex-direction: column;
+	}
+	.footer__list li{
+		padding-bottom: 25px;
+		margin-right: 0
+	}
+	.footer__copy .text{
+		padding-top: 25px;
+	}
+	.footer__top, .footer__bottom{
+		max-width: 640px
+	}
+	.footer__container {
+    	max-width: 336px;
+    	padding: 46px 0 64px;
+    }
+    
+}
+
+@media (max-width: 830px){
+	.content__img{
+		width: 320px
+	}
+	a.footer__btn{
+		padding: 12px 60px;
+	}
+	.small__imgs{
+		padding: 20px 0 75px
+	}
+}
+
+@media (max-width: 660px){
+	.content__img{
+		display: none;
+	}
+	.small__imgs{
+		flex-wrap: wrap;
+	}
+	.small__img:first-child {
+	    margin-right: 0px;
+	}
+	.big__img .text, .small__img .text{
+		font-size: 16px;
+		top: 16px;
+    	right: 16px;
+	}
+	.container{
+		padding: 0 12px;
+	}
+	.small__imgs{
+		padding: 16px 0 64px
+	}
+	.small__img:last-child{
+		margin-top: 16px
+	}
+	.footer__bottom {
+	    padding-top: 64px;
+	    padding-bottom: 64px;
+	}
+}
+
+@media (max-width: 560px){
+	.footer__top{
+		flex-direction: column;
+	}
+	.footer__heading{
+		width: 85%;
+    	margin: 0 auto;
+    	font-size: 24px;
+		line-height: 28px;
+	}
+	.footer__container{
+		max-width: 100%;
+		text-align: center;
+		padding: 18px 0 40px;
+	}
+	a.footer__btn{
+		margin-bottom: 40px
+	}
+	.footer__list li {
+	    padding-bottom: 17px;
+	}
+}
+@media (max-width: 537px){
+	.container{
+		padding: 0 10px;
+	}
+	.main__content{
+		padding-bottom: 40px;
+		text-align: center
+	}
+	.main__heading{
+		max-width: 100%;
+		font-size: 32px;
+		margin: 32px  25px 0;
+		line-height: 37px;
+	}
+	.main__text{
+		max-width: 100%;
+		font-size: 16px;
+		line-height: 26px;
+		padding: 12px 20px;
+	}
+	.main__btn{
+		padding: 5px 22px;
+	}
+	.what__heading, .our__wrap .what__heading{
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.card__content:first-child .card__img{
+		width: 155px;
+		margin-left: 12%;
+	}
+	.card__content:nth-child(2) .card__img{
+		width: 109px;
+	}
+	.card__content:last-child .card__img{
+		width: 146px;
+		margin-left: 17%;
+	}
+	.footer__bottom {
+	    padding-top: 32px;
+	    padding-bottom: 32px;
+	}
+	.footer__copy .text{
+		padding-top: 10px;
+		text-align: center
+	}
+}

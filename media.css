@@ -1,4 +1,10 @@
 @media (max-width: 980px){
+	map .container{
+		padding: 0
+	}
+}
+
+@media (max-width: 980px){
 	.content__img{
 		width: 423px
 	}
@@ -15,6 +21,9 @@
 	}
 	.what__text{
 		max-width: 550px;
+	}
+	input, textarea{
+		max-width: 280px;
 	}
 }
 
@@ -48,6 +57,15 @@
 	}
 	.small__imgs{
 		padding: 20px 0 75px
+	}
+	.contact__content{
+		flex-wrap: wrap;
+	}
+	.contacts{
+		padding-bottom: 64px
+	}
+	.contacts, .form__wrap{
+		margin: 0 auto;
 	}
 }
 
@@ -148,5 +166,35 @@
 	.footer__copy .text{
 		padding-top: 10px;
 		text-align: center
+	}
+	.cotact__heading{
+		font-size: 24px;
+		line-height: 28px;
+		padding: 41px 0 0px;
+	}
+	.contact__text{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.form__heading{
+		font-size: 16px;
+		padding-bottom: 30px;
+	}
+	.form__text{
+		font-size: 14px;
+	}
+	.form__wrap{
+		padding: 36px;
+		width: 90%;
+	}
+	input, textarea{
+		margin: 0px 0 20px;
+		padding: 12px 24px;
+		font-size: 14px;
+		width: 100%;
+   		max-width: 83%;
+	}
+	textarea{
+		height: 90px;
 	}
 }

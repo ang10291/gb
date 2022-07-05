@@ -60,19 +60,20 @@ h1, h2, h3, h4{
 	padding: 32px 0 70px;
 }
 
-.main__btn{
+.main__btn, .form__btn{
 	font-size: 16px;
 	line-height: 26px;
 	letter-spacing: 0.04em;
 	text-decoration: none;
 	color: #fff;
+	text-align: center;
 	background: #5A98D0;
 	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
 	border-radius: 10px;
 	padding: 15px 50px;
 	display: inline-block;
 }
-.main__btn:hover{
+.main__btn:hover , .form__btn:hover{
 	background: #3e81bd;
     transition: 0.5s;
 }
@@ -246,11 +247,31 @@ h1, h2, h3, h4{
 /*///////////////////////////////////////////////////////////////////////*/
 .contact{
 	text-align: center;
+	background: url(img/main-contact.jpg);
+	background-size: cover;
+	margin-bottom: 65px;
 }
 
-.contact__heading{}
+.contact__heading{
+	font-weight: 500;
+	font-size: 44px;
+	line-height: 74px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFF;
+	padding: 51px 0 16px;
+}
 
-.contact__text{}
+.contact__text{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: rgba(255, 255, 255, 0.6);
+	padding-bottom: 49px;
+	width: 85%;
+    margin: 0 auto;
+}
 
 .contact__content{
 	display: flex;
@@ -258,17 +279,107 @@ h1, h2, h3, h4{
 	align-items: center;
 }
 
-.contacts{}
+.contacts{
+	width: 300px;
+	margin-right: 35px;
+}
 
-.contact__img{}
+.contact__img{
+	max-width: 300px;
+	width: 100%
+}
 
-.contacts .heading{}
+.contacts .heading, .form__heading{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	padding: 40px 0 24px;
+	text-transform: uppercase;
+}
 
-.contacts .text{}
+.contacts .text, .contacts ul li a{
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	text-decoration: none;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	opacity: 0.6;
+}
+
+.contacts li{
+	display: inline-flex;
+    align-items: center;
+}
+
+.contacts li img{
+	padding-right: 18px;
+}
+
+.contacts ul li:first-child{
+	padding-bottom: 16px;
+}
+
+.form__wrap{
+	background: #FFFFFF;
+	box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	padding: 56px;
+}
+
+.form__heading{
+	padding-bottom: 40px;
+	padding-top: 0;
+}
+
+.form__text{
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	opacity: 0.8;
+}
+
+input , textarea {
+	opacity: 0.4;
+	border: 1px solid #356EAD;
+	border-radius: 10px;
+	width: 354px;
+    font-size: 16px;
+    padding: 21px 36px;
+    margin: 7px 0 30px;
+}
+
+input::placeholder, textarea::placeholder{
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 0.04em;
+	color: #1F3F68;
+	opacity: 0.2;
+}
+
+
+textarea{
+	height: 144px;
+}
+
+.form__btn{
+	display: block;
+	margin-top: 40px;
+}
+
+
+.map{
+	max-width: 1150px;
+	margin: 0 auto;
+}
 
 .map iframe{
 	width: 100%;
 	border: none;
+	padding: 96px 0 110px;
 }
 
 /*//////////////////////////////////////////////////////////////////////////*/
